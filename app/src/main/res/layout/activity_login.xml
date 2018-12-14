@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetailFragment"
+    android:id="@+id/container"
+    android:background="#ECF0F1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User?"
+        android:id="@+id/createAccount"
+        android:textSize="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Enter-your-password"
+        android:imeOptions="actionDone"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:textColor="#616161"
+        android:textColorHint="#AEAEAE"
+        android:textSize="15.3sp"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="47dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Enter your email"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:nextFocusDown="@+id/edit_text_password"
+        android:padding="14dp"
+        android:textColor="#616161"
+        android:textColorHint="#AEAEAE"
+        android:textSize="15.3sp"
+        android:layout_above="@+id/edit_text_password"
+        />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:id="@+id/button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/com_facebook_button_background_color"/>
+
+
+    <TextView
+        android:id="@+id/loginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Already have a account ?"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_text_email"
+        android:layout_below="@+id/loginTV"
+        android:layout_marginTop="29dp"
+        android:backgroundTint="@color/green"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/loginTV"
+        android:src="@drawable/stayfit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="SHEBA" />
+
+
+</RelativeLayout>
