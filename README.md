@@ -7,3 +7,5 @@ FALL 2018
 Mohammad Kaosain Akbar - 1420515042 (SCRUM MASTER)
 
 Irtiza Nahian Faiza Sanha - 1520448042
+
+Asif Bin Latif - 1520494042
